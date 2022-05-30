@@ -6,12 +6,13 @@ import pic from '../assets/images/FinalProjectImage.jpeg'
 
 function Project() {
   return (
-    <div className = "row projectContainer bg-dark">
-      <h1>The Works of Anthony Pacella</h1>
+    <section>
+          <div className = "row bg-dark projectContainer">
+      <h1 className = 'text-light'>The Works of Anthony Pacella</h1>
       {
         ProjectData.map((val,key) => {
           return (
-            <div  className = 'border border-light projectCard card bg-dark col-lg-4 col-md-6 portfolio-item filter-app'
+            <div  className = 'rounded border border-light projectCard card bg-dark col-lg-4 col-md-4'
             onClick={()=> {
                   window.open(val.page,'_blank')
              }}>
@@ -23,6 +24,8 @@ function Project() {
         })
       }
     </div>
+    </section>
+
   )
 }
 
