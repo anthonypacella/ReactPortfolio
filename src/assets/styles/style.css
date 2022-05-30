@@ -134,9 +134,10 @@ body {
     padding-top: 140px;
   }
   section {
-    padding: 20px 0;
+    padding: 20px;
     overflow: hidden;
     margin-left: 250px;
+    margin-right: 50px;
   }
   
   .section-bg {
@@ -480,16 +481,8 @@ nav {
 
 .projectCard {
   display: flex;
-  height: 50%;
-  width: 50%;
   margin: 10px;
 }
-
-.projectCard:hover {
-  width: 35%;
-  height: 35%;
-}
-
 html {
   background-color: #212529;
 }
@@ -499,5 +492,23 @@ html {
 }
 
 .projectContainer {
-  padding: 5px
+  padding: 5px;
 }
+
+.fadein{
+  opacity:0.5;
+  transition: 1s ease;
+  }
+  
+  .fadein:hover{
+  opacity:1;
+  transition: 1s ease;
+  }
+
+  .techText {
+    height: auto;
+    padding: 0;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 5px;
+    }

@@ -12,13 +12,13 @@ function Project() {
       {
         ProjectData.map((val,key) => {
           return (
-            <div  className = 'rounded border border-light projectCard card bg-dark col-lg-4 col-md-4'
+            <div  className = 'fadein rounded border border-light projectCard card bg-dark col-lg-4 col-md-4'
             onClick={()=> {
                   window.open(val.page,'_blank')
              }}>
                 <h2 className = 'text-light' key={key}>{val.title}</h2>
-                <img src={pic} alt ="pic"></img>  
-            <h4>{val.tech}</h4>
+                <img className = 'projectimage img-fluid' src={val.image} alt ="pic"></img>  
+            <h4 className = 'techText'>{val.tech}</h4>
             </div>
           )
         })

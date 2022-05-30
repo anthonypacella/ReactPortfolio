@@ -9,7 +9,7 @@ import Project5Photo from '../assets/images/Project5Image.jpeg'
 export const ProjectData = [
     {
         title: 'Final Project Placeholder',
-        image: <FinalProjectPhoto/>,
+        image: FinalProjectPhoto,
         tech: 'MERN Full Stack Application',
         alt: 'Photo of Final Project application',
         page: '',
@@ -17,7 +17,7 @@ export const ProjectData = [
     },
     {
         title: 'The Movie Hunter',
-        image: <Project2Photo />,
+        image: Project2Photo,
         tech: 'HTML, CSS, JS, Third Party APIs',
         alt: 'Photo of Movie Hunter application',
         page: 'https://anthonypacella.github.io/MovieHunter/',
@@ -25,7 +25,7 @@ export const ProjectData = [
     },
     {
         title: `Checkin' Out - Library Database`,
-        image: <Project3Photo />,
+        image: Project3Photo,
         tech: 'HTML, CSS, JS, Handlebars, MySQL',
         alt: `Photo of Checkin' Out application`,
         page: 'https://checkinout-app.herokuapp.com/',
@@ -33,7 +33,7 @@ export const ProjectData = [
     },
     {
         title: 'Weather Dashboard',
-        image: <Project4Photo />,
+        image: Project4Photo,
         tech: 'HTML, CSS, JS',
         alt: 'Photo of Weather Dashboard application',
         page: 'https://anthonypacella.github.io/WeatherApp/',
@@ -41,7 +41,7 @@ export const ProjectData = [
     },
     {
         title: 'NoteTaker Application',
-        image: <Project5Photo />,
+        image: Project5Photo,
         tech: 'HTML, CSS, JS',
         alt: 'Photo of NoteTaker application',
         page: 'https://secure-sierra-14774.herokuapp.com/',
