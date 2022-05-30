@@ -4,16 +4,15 @@ import headshot from '../assets/images/Headshot.png'
 
 function aboutMe() {
     return (
-    <section id="aboutme">
-        <div className = "section-title">
-            <h2>About Me</h2>
-            <div className = "aboutTitleContainer">
+        <div className = "aboutme section-title bg-dark">
+            <h2 className = 'bg-dark aboutTitle'>About Me</h2>
+            <div className = "aboutTitleContainer bg-dark">
                 <h3 className = "aboutTitle"> Hello! My name is Anthony Pacella. </h3>
             </div>
             
-            <p className = "aboutMeText">I am a 28 year old living in Ohio, hoping to becoming a professional web developer in the near future. Some of my favorite things to do are spend time with my fiancè and dog and play golf, darts, and pub trivia. I currently work as an HVAC engineer for a HVAC construction company. 
+            <p className = "aboutMeText">I am a 28 year old living in Ohio, hoping to becoming a professional web developer in the near future. Some of my favorite things to do are spend time with my fiancèe and dog and play golf, darts, and pub trivia. I currently work as an HVAC engineer for a HVAC construction company. 
             </p>
-            <h2>Skills</h2>
+            <h2 className = 'aboutTitle'>Skills</h2>
             <div>
                 <div>
                     <ul className = 'skillsList'>
@@ -33,11 +32,10 @@ function aboutMe() {
                 </div>                 
             </div>
             <div className = 'headshotContainer'>
-            <img src= {headshot} class="img-fluid rounded circle headshot" alt=""></img>
+            <img src= {headshot} class="circle headshot" alt=""></img>
             </div>
 
         </div>
-    </section>
     );
 }
 

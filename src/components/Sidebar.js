@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../src/assets/styles/style.css'
-import {Nav,  Navbar, NavDropdown } from 'react-bootstrap';
 import { SidebarData } from './SidebarData'
 import { ContactData } from './ContactData';
 import resume from '../assets/Resume.pdf';
