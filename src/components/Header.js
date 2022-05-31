@@ -2,6 +2,8 @@ import React from 'react';
 import '../../src/assets/styles/style.css'
 import { Navigation } from './Navigation'
 import { NavLink } from "react-router-dom";
+import { Resume } from './Resume';
+import resume from '../assets/Resume.pdf';
 
 function sideBar() {
     return (
@@ -18,6 +20,10 @@ function sideBar() {
                         </li>
                     );
                 })}
+                <li className = 'row' onClick = {() => window.location.href = resume}>
+                    <div id='navicon'>{Resume[0].icon}</div>{" "}
+                    <div id='title'>{Resume[0].title}</div>
+                </li>
             </ul>
         </div>
     );
