@@ -9,7 +9,7 @@ return (
                 {ContactData.map((val,key) => {
                     return (
                         <div className = 'footerLink'>
-                            <li key={key} onClick={()=> {window.location.href = val.link}}>
+                            <li key={key} onClick={()=> {window.open(val.link, '_blank')}}>
                             {" "}
                             <div id='icon'>{val.icon}</div>{" "}
                         </li>

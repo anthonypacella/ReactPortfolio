@@ -8,17 +8,17 @@ export const Navigation = [
     {
         title: 'Home',
         icon: <HomeIcon />,
-        link: '/'
+        link: '/ReactPortfolio'
     },
     {
         title: 'About',
         icon: <AboutIcon />,
-        link: '/aboutme'
+        link: '/ReactPortfolio/aboutme'
     },
     {
         title: 'Projects',
         icon: <WorkIcon />,
-        link: '/projects'
+        link: '/ReactPortfolio/projects'
     },
     {
         title: 'Resume',
