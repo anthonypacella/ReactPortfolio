@@ -2,7 +2,6 @@ import React from 'react';
 import '../../src/assets/styles/style.css'
 import { Navigation } from './Navigation'
 import { NavLink } from "react-router-dom";
-import resume from '../assets/Resume.pdf';
 
 function sideBar() {
     return (
