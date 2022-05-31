@@ -15,7 +15,7 @@ function App() {
     <div className = 'App bg-dark'>
           <Router>
               <Routes >
-                <Route path = '/ReactPortfolio' element = 
+                <Route path = '/ReactPortfolio' component = 
                   {
                     <div id="hero" className="hero route bg-image" style = {{ backgroundImage: `url(${Banner})` }}>   
                       <div class = "overlay-itro"> </div>
@@ -23,21 +23,21 @@ function App() {
                         <Hero/>
                         <Footer/>
                     </div>
-                  }>
+                  } exact>
                 </Route>
-                <Route path = '/ReactPortfolio/aboutme' element = {
+                <Route path = '/ReactPortfolio/aboutme' component = {
                     <div className = 'bg-dark'>   
                         <Header/>
                         <AboutMe/>
                         <Footer/>
-                    </div> }>
+                    </div> } exact>
                 </Route>
-                <Route path = '/ReactPortfolio/projects' element = {
+                <Route path = '/ReactPortfolio/projects' component = {
                     <div className = 'bg-dark'>
                         <Header/>
                         <Projects/>
                         <Footer/>
-                    </div> }>
+                    </div> } exact>
                 </Route>
               </Routes>
           </Router>
