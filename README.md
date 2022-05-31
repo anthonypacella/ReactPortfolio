@@ -20,9 +20,9 @@
 
 ## Mock-Up
 
-![](./src/assets/images/MockUp1.png)
-![](./src/assets/images/MockUp2.png)
-![](./src/assets/images/MockUp3.png)
+![](./src/assets/images/Mockup1.png)
+![](./src/assets/images/Mockup2.png)
+![](./src/assets/images/Mockup3.png)
 
 ## Links
 * GitHub Repository: https://github.com/anthonypacella/ReactPortfolio
