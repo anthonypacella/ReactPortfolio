@@ -1,8 +1,9 @@
 import React from "react";
-import Sidebar from "./components/Sidebar.js";
+import Header from "./components/Header.js";
 import Hero from "./components/Hero.js";
 import AboutMe from "./components/AboutMe.js";
 import Projects from "./components/Project.js";
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Banner from './assets/images/Banner.jpg'
 import '../src/assets/styles/style.css'
@@ -18,21 +19,24 @@ function App() {
                   {
                     <div id="hero" className="hero route bg-image" style = {{ backgroundImage: `url(${Banner})` }}>   
                       <div class = "overlay-itro"> </div>
-                        <Sidebar/>
+                        <Header/>
                         <Hero/>
+                        <Footer/>
                     </div>
                   }>
                 </Route>
                 <Route path = '/aboutme' element = {
                     <div className = 'bg-dark'>   
-                        <Sidebar/>
+                        <Header/>
                         <AboutMe/>
+                        <Footer/>
                     </div> }>
                 </Route>
                 <Route path = '/projects' element = {
                     <div className = 'bg-dark'>
-                        <Sidebar/>
+                        <Header/>
                         <Projects/>
+                        <Footer/>
                     </div> }>
                 </Route>
               </Routes>

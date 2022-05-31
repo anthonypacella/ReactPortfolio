@@ -1,14 +1,13 @@
 import React from 'react';
 import '../../src/assets/styles/style.css'
-import { SidebarData } from './SidebarData'
-import { ContactData } from './ContactData';
+import { Navigation } from './Navigation'
 import resume from '../assets/Resume.pdf';
 
 function sideBar() {
     return (
         <div className="sidenav">
             <ul className = 'sidenavList'>
-                {SidebarData.map((val,key) => {
+                {Navigation.map((val,key) => {
                     return (
                         <li key={key} className = 'row' id = {window.location.pathname === val.link ? "active" : ""}onClick={()=> {
                             if (val.title === 'Resume') {
@@ -19,18 +18,7 @@ function sideBar() {
                             }
                         }}>
                             {" "}
-                            <div id='icon'>{val.icon}</div>{" "}
-                            <div id='title'>{val.title}</div>
-                        </li>
-                    );
-                })}
-            </ul>
-            <ul className = 'contactnavList'>
-                {ContactData.map((val,key) => {
-                    return (
-                        <li key={key} className = 'row' onClick={()=> {window.location.href = val.link}}>
-                            {" "}
-                            <div id='icon'>{val.icon}</div>{" "}
+                            <div id='navicon'>{val.icon}</div>{" "}
                             <div id='title'>{val.title}</div>
                         </li>
                     );

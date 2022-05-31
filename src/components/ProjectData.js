@@ -1,4 +1,3 @@
-import React from "react";
 import FinalProjectPhoto from '../assets/images/FinalProjectImage.jpeg';
 import Project2Photo from '../assets/images/Project2Image.png'
 import Project3Photo from '../assets/images/Project3Image.png'

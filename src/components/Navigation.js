@@ -4,7 +4,7 @@ import AboutIcon from '@mui/icons-material/PersonOutline';
 import WorkIcon from '@mui/icons-material/WorkOutline';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 
-export const SidebarData = [
+export const Navigation = [
     {
         title: 'Home',
         icon: <HomeIcon />,

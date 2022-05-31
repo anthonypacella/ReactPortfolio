@@ -1,8 +1,6 @@
 import React from 'react';
 import '../../src/assets/styles/style.css';
 import { ProjectData } from './ProjectData';
-import pic from '../assets/images/FinalProjectImage.jpeg'
-
 
 function Project() {
   return (
